@@ -1,14 +1,14 @@
-pouchdb-adapter-http-react-native
+pouchdb-adapter-http-node
 ==============
 
-Build of `pouchdb-adapter-http` optimized for React Native.
+Build of `pouchdb-adapter-http` with only the Node version, not the browser version.
 
 Usage
 ---
 
-    npm install pouchdb-adapter-http-react-native
+    npm install pouchdb-adapter-http-node
 
 ```js
 var PouchDB = require('pouchdb');
-PouchDB.plugin(require('pouchdb-adapter-http-react-native'));
+PouchDB.plugin(require('pouchdb-adapter-http-node'));
 ```
