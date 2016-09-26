@@ -33,7 +33,7 @@ Promise.resolve().then(function () {
     readFile('package.json', 'utf8').then(function (pkgJson) {
       var pkg = JSON.parse(pkgJson)
       pkg.dependencies = {}
-      return Promise.all(requires.map(function (req) {
+      return Promise.all(requires.sort().map(function (req) {
         if (builtins.indexOf(req) !== -1) {
           return
         }
