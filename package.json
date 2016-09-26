@@ -4,7 +4,7 @@
   "description": "Build of pouchdb-adapter-http optimized for pouchdb-react-native",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "node bin/prepublish.js && git add package.json && git commit -m 'build'"
+    "prepublish": "node bin/prepublish.js"
   },
   "keywords": [],
   "author": "Nolan Lawson <nolan@nolanlawson.com>",
