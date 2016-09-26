@@ -22,5 +22,13 @@
     "rimraf": "^2.5.4",
     "rollup": "^0.35.11",
     "rollup-plugin-node-resolve-auto": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolanlawson/pouchdb-adapter-http-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nolanlawson/pouchdb-adapter-http-node/issues"
+  },
+  "homepage": "https://github.com/nolanlawson/pouchdb-adapter-http-node#readme"
 }
