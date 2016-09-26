@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-adapter-http-react-native",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build of pouchdb-adapter-http optimized for pouchdb-react-native",
   "main": "lib/index.js",
   "scripts": {
