@@ -1,7 +1,7 @@
 {
-  "name": "pouchdb-adapter-http-node",
+  "name": "pouchdb-adapter-http-react-native",
   "version": "1.0.0",
-  "description": "Build of pouchdb-adapter-http with only the Node version",
+  "description": "Build of pouchdb-adapter-http optimized for pouchdb-react-native",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "node bin/prepublish.js"
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nolanlawson/pouchdb-adapter-http-node.git"
+    "url": "git+https://github.com/nolanlawson/pouchdb-adapter-http-react-native.git"
   },
   "bugs": {
-    "url": "https://github.com/nolanlawson/pouchdb-adapter-http-node/issues"
+    "url": "https://github.com/nolanlawson/pouchdb-adapter-http-react-native/issues"
   },
-  "homepage": "https://github.com/nolanlawson/pouchdb-adapter-http-node#readme"
+  "homepage": "https://github.com/nolanlawson/pouchdb-adapter-http-react-native#readme"
 }
