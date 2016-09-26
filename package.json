@@ -13,6 +13,8 @@
     "lib"
   ],
   "devDependencies": {
+    "denodeify": "^1.2.1",
+    "ncp": "^2.0.0",
     "pouchdb-adapter-http": "^6.0.5"
   }
 }
