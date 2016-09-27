@@ -10,6 +10,7 @@ Usage
     npm install pouchdb-adapter-http-react-native
 
 ```js
-var PouchDB = require('pouchdb');
-PouchDB.plugin(require('pouchdb-adapter-http-react-native'));
+var PouchDB = require('pouchdb')
+PouchDB.plugin(require('pouchdb-adapter-http-react-native').default)
+
 ```
